@@ -24,6 +24,7 @@ app.get("/weather", async (req, res) => {
             message: "Error message: Invalid search term"
         }
 	}
+	
 	/*
 		step 1: check redis
 		step 2: check elastic
